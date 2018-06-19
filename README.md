@@ -4,7 +4,7 @@
 
 This adapter is based on homebridge-seasons plugin.
 
-!(States)[img/objects.png]
+![States](img/objects.png)
 
 Read more about it here (https://www.npmjs.com/package/homebridge-seasons)[https://www.npmjs.com/package/homebridge-seasons]
 
