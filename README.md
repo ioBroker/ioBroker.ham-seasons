@@ -1,3 +1,19 @@
+![Logo](admin/ham-seasons.png)
+# ioBroker Seasons adapter based on homebridge-seasons
+=================
+
+This adapter is based on homebridge-seasons plugin.
+
+!(States)[img/objects.png]
+
+Read more about it here (https://www.npmjs.com/package/homebridge-seasons)[https://www.npmjs.com/package/homebridge-seasons]
+
+## Changelog
+
+### 0.0.1 (2018.06.19)
+* (bluefox) initial commit
+
+## License
 The MIT License (MIT)
 
 Copyright (c) 2018 bluefox <dogafox@gmail.com>
