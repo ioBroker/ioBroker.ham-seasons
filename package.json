@@ -19,7 +19,7 @@
         }
     ],
     "dependencies": {
-        "iobroker.ham": "^0.2.6",
+        "iobroker.ham": "^0.3.0",
         "homebridge-seasons": "^1.0.1"
     },
     "description": "Homebridge accessories manager",
