@@ -48,6 +48,7 @@
         "type": "general"
     },
     "native": {
+        "ignoreAccessories": true,
         "wrapperConfig": {
             "description": "This is a configuration file for homebridge.",
             "accessories": [
