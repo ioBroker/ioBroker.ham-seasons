@@ -13,20 +13,9 @@ let onStateChanged = null;
 let onObjectChanged = null;
 let sendToID = 1;
 
+const namespace = 'Season';
+
 const adapterShortName = setup.adapterName.substring(setup.adapterName.indexOf('.') + 1);
-
-let httpServer;
-let lastHTTPRequest = null;
-
-function setupHTTPServer(port, callback) {
-    httpServer = http.createServer((req, res) => {
-        lastHTTPRequest = req.url;
-        console.log('HTTP Received: ' + lastHTTPRequest);
-        res.writeHead(200, {'Content-Type': 'text/plain'});
-        res.end('OK');
-    }).listen(port);
-    setTimeout(() => callback(), 5000);
-}
 
 function checkConnectionOfAdapter(cb, counter) {
     counter = counter || 0;
@@ -95,22 +84,10 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
             config.native = defConfig.native;
 
             setup.setAdapterConfig(config.common, config.native);
-
-            setupHTTPServer(9080, () => {
-                setup.startController(true,
-                    (id, obj) => {},
-                    (id, state) => onStateChanged && onStateChanged(id, state),
-                    (_objects, _states) => {
-                        objects = _objects;
-                        states  = _states;
-                        _done();
-                    });
-            });
         });
     });
 
     it('Test ' + adapterShortName + ' Wrapper adapter: Check if adapter started', done => {
-        this;
         checkConnectionOfAdapter(res => {
             if (res) console.log(res);
             expect(res).not.to.be.equal('Cannot check connection');
@@ -127,98 +104,24 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
         });
     }).timeout(60000);
 
-    it('Test ' + adapterShortName + ' Wrapper adapter: Wait for npm installs', done => {
-        setTimeout(() => done(), 30000);
-    }).timeout(60000);
-
     it('Test ' + adapterShortName + ' Wrapper: Verify Init', done => {
-        states.getState(adapterShortName + '.0.Switch-name-1.Switch-name-1.On', function (err, state) {
+        states.getState(`${adapterShortName}.0.${namespace}.${namespace}.${namespace}-Name`, (err, state) => {
             expect(err).to.not.exist;
             expect(state.val).to.be.false;
 
-            states.getState(adapterShortName + '.0.Sun.Accessory-Information.Model', function (err, state) {
+            states.getState(`${adapterShortName}.0.${namespace}.Accessory-Information.Model`, (err, state) => {
                 expect(err).to.not.exist;
                 expect(state.val).to.be.equal('Sun Position');
-
-                states.getState(adapterShortName + '.0.Sun.Sun.Altitude', function (err, state) {
-                    expect(err).to.not.exist;
-                    expect(state.val).to.exist;
-                    done();
-                });
+                done();
             });
-        });
-    }).timeout(10000);
-
-    it('Test ' + adapterShortName + ' Wrapper: Test Change from inside', done => {
-        request('http://localhost:61828/?accessoryId=switch1&state=true', (error, response, body) => {
-            expect(error).to.be.null;
-            expect(response && response.statusCode).to.be.equal(200);
-
-            setTimeout(function() {
-                expect(lastHTTPRequest).to.be.null;
-                states.getState(adapterShortName + '.0.Switch-name-1.Switch-name-1.On', (err, state) => {
-                    expect(err).to.not.exist;
-                    expect(state.val).to.be.true;
-                    done();
-                });
-            }, 2000);
-        });
-
-    }).timeout(10000);
-
-    it('Test ' + adapterShortName + ' Wrapper: Test change via characteristic', done => {
-        states.setState(adapterShortName + '.0.Switch-name-1.Switch-name-1.On', {val: false, ack: false}, err => {
-            expect(err).to.not.exist;
-
-            setTimeout(() => {
-                expect(lastHTTPRequest).to.be.equal('/switch1?off');
-                states.getState(adapterShortName + '.0.Switch-name-1.Switch-name-1.On', (err, state) => {
-                    expect(err).to.not.exist;
-                    expect(state.val).to.be.false;
-                    done();
-                });
-            }, 2000);
-        });
-    }).timeout(10000);
-
-    it('Test ' + adapterShortName + ' Wrapper: Test change via characteristic 2', done => {
-        states.setState(adapterShortName + '.0.Switch-name-1.Switch-name-1.On', {val: true, ack: false}, err => {
-            expect(err).to.not.exist;
-
-            setTimeout(() => {
-                expect(lastHTTPRequest).to.be.equal('/switch1?on');
-                states.getState(adapterShortName + '.0.Switch-name-1.Switch-name-1.On', (err, state) => {
-                    expect(err).to.not.exist;
-                    expect(state.val).to.be.true;
-                    done();
-                });
-            }, 2000);
-        });
-    }).timeout(10000);
-
-    it('Test ' + adapterShortName + ' Wrapper: Test Change from inside 2', done => {
-        lastHTTPRequest = null;
-        request('http://localhost:61828/?accessoryId=switch1&state=false', (error, response, body) => {
-            expect(error).to.be.null;
-            expect(response && response.statusCode).to.be.equal(200);
-
-            setTimeout(function() {
-                expect(lastHTTPRequest).to.be.null;
-                states.getState(adapterShortName + '.0.Switch-name-1.Switch-name-1.On', (err, state) => {
-                    expect(err).to.not.exist;
-                    expect(state.val).to.be.false;
-                    done();
-                });
-            }, 2000);
         });
     }).timeout(10000);
 
     after('Test ' + adapterShortName + ' Wrapper adapter: Stop js-controller', function (done) {
         this.timeout(10000);
 
-        setup.stopController(function (normalTerminated) {
+        setup.stopController(normalTerminated => {
             console.log('Adapter normal terminated: ' + normalTerminated);
-            httpServer.close();
             done();
         });
     });
