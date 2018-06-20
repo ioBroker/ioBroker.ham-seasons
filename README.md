@@ -8,6 +8,23 @@ This adapter is based on homebridge-seasons plugin.
 
 Read more about it here https://www.npmjs.com/package/homebridge-seasons
 
+## Disclaim
+Of course we did not write the whole adapter only to detect the season of the year.
+You can do that with just a couple of JS lines:
+```
+function calc() {
+    const season = Math.round(((new Date().getMonth() + 1) % 12) / 3);
+    const names = ['winter', 'spring', 'summer', 'autumn'];
+    setState('season', names[season], true);
+}
+createState('season', () => {
+    on('0 0 * * *', calc);
+    calc();
+});
+```
+
+This adapter is prove of concept for homebridge wrapper.
+
 ## Changelog
 
 ### 0.0.1 (2018.06.19)

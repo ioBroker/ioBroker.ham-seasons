@@ -37,7 +37,8 @@
             "bluefox <dogafox@gmail.com>"
         ],
         "platform": "Javascript/Node.js",
-        "mode": "daemon",
+        "mode": "schedule",
+        "schedule": "0 0 * * *",
         "icon": "ham-seasons.png",
         "materialize": true,
         "enabled": true,
