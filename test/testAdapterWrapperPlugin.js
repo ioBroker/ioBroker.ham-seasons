@@ -114,7 +114,7 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
                 },
                 () => {
                     states.subscribeMessage('system.adapter.test.0');
-                    done();
+                    setTimeout(() => done(), 10000);
                 });
         });
     }).timeout(60000);
@@ -122,11 +122,11 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
     it('Test ' + adapterShortName + ' Wrapper: Verify Init', done => {
         states.getState(`${adapterShortName}.0.${namespace}.${namespace}.${namespace}-Name`, (err, state) => {
             expect(err).to.not.exist;
-            expect(state.val).to.be.false;
+            expect(state.val).to.be.equal('Summer');
 
             states.getState(`${adapterShortName}.0.${namespace}.Accessory-Information.Model`, (err, state) => {
                 expect(err).to.exist;
-                expect(state.val).to.not.exist;
+                expect(state.val).to.be.null;
                 done();
             });
         });
