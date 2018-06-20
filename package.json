@@ -22,7 +22,7 @@
         "iobroker.ham": "ioBroker/ioBroker.ham",
         "homebridge-seasons": "^1.0.1"
     },
-    "description": "Homebridge accessories manager",
+    "description": "Homebridge accessories manager Seasons Plugin Adapter",
     "devDependencies": {
         "chai": "^4.1.2",
         "gulp": "^3.9.1",

@@ -12,26 +12,27 @@
                 "nl": "Eerste release"
             }
         },
-        "title": "Homebridge accessories manager",
+        "title": "Homebridge accessories manager Seasons Plugin",
         "titleLang": {
-            "en": "Homebridge accessories manager",
-            "de": "Homebridge accessories manager",
-            "ru": "Homebridge accessories manager",
-            "pt": "Homebridge accessories manager",
-            "nl": "Homebridge accessories manager",
-            "fr": "Homebridge accessories manager",
-            "it": "Homebridge accessories manager",
-            "es": "Homebridge accessories manager"
+            "en": "Homebridge accessories manager Seasons Plugin",
+            "de": "Homebridge accessories manager Seasons Plugin",
+            "ru": "Homebridge accessories manager Seasons Plugin",
+            "pt": "Homebridge accessories manager Seasons Plugin",
+            "nl": "Homebridge accessories manager Seasons Plugin",
+            "fr": "Homebridge accessories manager Seasons Plugin",
+            "it": "Homebridge accessories manager Seasons Plugin",
+            "es": "Homebridge accessories manager Seasons Plugin"
         },
         "desc": {
-            "en": "ioBroker Homebridge Adapter",
-            "de": "ioBroker Homebridge Adapter",
-            "ru": "ioBroker Homebridge драйвер",
-            "pt": "Modelo de Homebridge para o ioBroker",
-            "fr": "ioBroker Homebridge modèle",
-            "nl": "ioBroker Homebridge Adapter",
-            "it": "Adattatore Homebridge ioBroker",
-            "es": "Adaptador Homebridge ioBroker"
+            "en": "ioBroker Homebridge Seasons Plugin Adapter",
+            "de": "ioBroker Homebridge Seasons Plugin Adapter",
+            "ru": "Адаптер адаптера Homebridge Seasons от ioBroker",
+            "pt": "Adaptador de plug-in de temporizadores Hombridge da ioBroker",
+            "nl": "ioBroker Homebridge Seasons Plugin-adapter",
+            "fr": "ioBroker Homebridge Saisons Plugin Adaptateur",
+            "it": "Adattatore plug-in Homebridge Seasons di ioBroker",
+            "es": "Adaptador de adaptador de estación ioBroker Homebridge Seasons",
+            "pl": "ioBroker Homebridge Seasons Plugin Adapter"
         },
         "authors": [
             "bluefox <dogafox@gmail.com>"
@@ -51,7 +52,6 @@
     "native": {
         "ignoreInfoAccessoryServices": true,
         "wrapperConfig": {
-            "description": "This is a configuration file for homebridge.",
             "accessories": [
             ],
             "platforms": [

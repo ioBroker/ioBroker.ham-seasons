@@ -87,6 +87,18 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
             config.native = defConfig.native;
 
             setup.setAdapterConfig(config.common, config.native);
+
+            setup.startController(
+                true,
+                (id, obj) => {},
+                (id, state) => {
+                    if (onStateChanged) onStateChanged(id, state);
+                },
+                (_objects, _states) => {
+                    objects = _objects;
+                    states  = _states;
+                    _done();
+                });
         });
     });
 
