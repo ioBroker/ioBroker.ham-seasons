@@ -125,10 +125,8 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
             expect(state.val).to.be.equal('Summer');
 
             states.getState(`${adapterShortName}.0.${namespace}.Accessory-Information.Model`, (err, state) => {
-                console.log(JSON.stringify(err));
-                console.log(JSON.stringify(state));
-                expect(err).to.not.exist;
-                expect(state.val).to.be.null;
+                expect(err).to.be.null;
+                expect(state).to.be.undefined;
                 done();
             });
         });
