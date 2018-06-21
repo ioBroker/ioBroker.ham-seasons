@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "name": "iobroker.ham-seasons",
     "author": {
         "name": "Bluefox",
@@ -19,7 +19,7 @@
         }
     ],
     "dependencies": {
-        "iobroker.ham": "ioBroker/ioBroker.ham",
+        "iobroker.ham": "^0.4.0",
         "homebridge-seasons": "^1.0.1"
     },
     "description": "Homebridge accessories manager Seasons Plugin Adapter",
