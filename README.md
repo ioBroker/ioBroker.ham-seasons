@@ -27,7 +27,10 @@ This adapter is prove of concept for homebridge wrapper.
 
 ## Changelog
 
-### 0.0.1 (2018.06.19)
+### 0.2.0 (2018.06.21)
+* (Apollon77) Optimizations
+
+### 0.1.0 (2018.06.19)
 * (bluefox) initial commit
 
 ## License
