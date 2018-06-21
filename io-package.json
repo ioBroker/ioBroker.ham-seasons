@@ -62,6 +62,7 @@
     },
     "native": {
         "ignoreInfoAccessoryServices": true,
+        "characteristicPollingInterval": 0,
         "wrapperConfig": {
             "accessories": [
             ],
