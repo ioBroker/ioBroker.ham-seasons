@@ -1,5 +1,8 @@
 ![Logo](admin/ham-seasons.png)
 # ioBroker Seasons adapter based on homebridge-seasons
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ioBroker/ioBroker.ham-seasons.svg)](https://greenkeeper.io/)
+
 =================
 
 This adapter is based on homebridge-seasons plugin.
