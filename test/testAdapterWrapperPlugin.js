@@ -122,7 +122,7 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
     it('Test ' + adapterShortName + ' Wrapper: Verify Init', done => {
         states.getState(`${adapterShortName}.0.${namespace}.${namespace}.${namespace}-Name`, (err, state) => {
             expect(err).to.not.exist;
-            expect(state.val).to.be.equal('Summer');
+            expect(state.val.length).not.to.be.equal(0);
 
             states.getState(`${adapterShortName}.0.${namespace}.Accessory-Information.Model`, (err, state) => {
                 expect(err).to.be.null;
