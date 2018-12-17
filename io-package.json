@@ -1,8 +1,19 @@
 {
     "common": {
         "name": "ham-seasons",
-        "version": "0.2.1",
+        "version": "1.0.0",
         "news": {
+            "1.0.0": {
+                "en": "Optimizations",
+                "de": "Optimierungen",
+                "ru": "Оптимизации",
+                "pt": "Otimizações",
+                "nl": "optimalisaties",
+                "fr": "Optimisations",
+                "it": "ottimizzazioni",
+                "es": "Optimizaciones",
+                "pl": "Optymalizacje"
+            },
             "0.2.1": {
                 "en": "Optimizations",
                 "de": "Optimierungen",
