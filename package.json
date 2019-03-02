@@ -1,48 +1,49 @@
 {
-    "version": "1.0.0",
-    "name": "iobroker.ham-seasons",
-    "author": {
-        "name": "Bluefox",
-        "email": "dogafox@gmail.com"
+  "version": "1.0.0",
+  "name": "iobroker.ham-seasons",
+  "author": {
+    "name": "Bluefox",
+    "email": "dogafox@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.ham-seasons/issues"
+  },
+  "contributors": [
+    {
+      "name": "Apollon77",
+      "email": "ingo@fischer-ka.de"
     },
-    "bugs": {
-        "url": "https://github.com/ioBroker/ioBroker.ham-seasons/issues"
-    },
-    "contributors": [
-        {
-            "name": "Apollon77",
-            "email": "ingo@fischer-ka.de"
-        },
-        {
-            "name": "Bluefox",
-            "email": "dogafox@gmail.com"
-        }
-    ],
-    "dependencies": {
-        "iobroker.ham": "^1.0.0",
-        "homebridge-seasons": "^1.0.1"
-    },
-    "description": "Homebridge accessories manager Seasons Plugin Adapter",
-    "devDependencies": {
-        "chai": "^4.1.2",
-        "gulp": "^3.9.1",
-        "mocha": "^5.2.0"
-    },
-    "homepage": "https://github.com/ioBroker/ioBroker.ham-seasons",
-    "keywords": [
-        "ioBroker",
-        "Homebridge",
-        "Smart Home",
-        "home automation"
-    ],
-    "license": "MIT",
-    "main": "main.js",
-    "readmeFilename": "README.md",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ioBroker/ioBroker.ham-seasons.git"
-    },
-    "scripts": {
-        "test": "node node_modules/mocha/bin/mocha --exit"
+    {
+      "name": "Bluefox",
+      "email": "dogafox@gmail.com"
     }
+  ],
+  "dependencies": {
+    "iobroker.ham": "^1.0.0",
+    "homebridge-seasons": "^1.0.1"
+  },
+  "description": "Homebridge accessories manager Seasons Plugin Adapter",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "mocha": "^6.0.2",
+    "@iobroker/adapter-core": "^1.0.3"
+  },
+  "homepage": "https://github.com/ioBroker/ioBroker.ham-seasons",
+  "keywords": [
+    "ioBroker",
+    "Homebridge",
+    "Smart Home",
+    "home automation"
+  ],
+  "license": "MIT",
+  "main": "main.js",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioBroker/ioBroker.ham-seasons.git"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  }
 }
