@@ -59,6 +59,7 @@
         "authors": [
             "bluefox <dogafox@gmail.com>"
         ],
+        "license": "MIT",
         "platform": "Javascript/Node.js",
         "mode": "schedule",
         "schedule": "0 0 * * *",
