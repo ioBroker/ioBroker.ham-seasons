@@ -1,6 +1,6 @@
 ![Logo](admin/ham-seasons.png)
 # ioBroker Seasons adapter based on homebridge-seasons
-
+![Number of Installations](http://iobroker.live/badges/ham-seasons-installed.svg) ![Number of Installations](http://iobroker.live/badges/ham-seasons-stable.svg) 
 [![Greenkeeper badge](https://badges.greenkeeper.io/ioBroker/ioBroker.ham-seasons.svg)](https://greenkeeper.io/)
 
 =================
