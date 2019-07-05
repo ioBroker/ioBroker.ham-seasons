@@ -30,6 +30,12 @@ This adapter is prove of concept for homebridge wrapper.
 
 ## Changelog
 
+### 1.0.1 (2019.07.05)
+* (Apollon77) homebridge version updated
+
+### 1.0.0
+* (Apollon77) Optimizations
+
 ### 0.2.0 (2018.06.21)
 * (Apollon77) Optimizations
 
