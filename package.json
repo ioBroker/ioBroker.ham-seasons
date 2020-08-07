@@ -19,15 +19,16 @@
     }
   ],
   "dependencies": {
-    "iobroker.ham": "^1.1.1",
+    "iobroker.ham": "^3.0.0",
     "homebridge-seasons": "^1.0.1",
-    "@iobroker/adapter-core": "^2.0.0"
+    "@iobroker/adapter-core": "^2.3.1"
   },
   "description": "Homebridge accessories manager Seasons Plugin Adapter",
   "devDependencies": {
+    "@alcalzone/release-script": "^1.4.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.2",
-    "mocha": "^7.0.1"
+    "mocha": "^8.1.0"
   },
   "homepage": "https://github.com/ioBroker/ioBroker.ham-seasons",
   "keywords": [
@@ -43,7 +44,11 @@
     "type": "git",
     "url": "git+https://github.com/ioBroker/ioBroker.ham-seasons.git"
   },
+  "engines": {
+    "node": ">=10.17.0"
+  },
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --exit"
+    "test": "node node_modules/mocha/bin/mocha --exit",
+    "release": "release-script"
   }
 }
