@@ -126,7 +126,7 @@ describe('Test ' + adapterShortName + ' Wrapper adapter', () => {
 
             states.getState(`${adapterShortName}.0.${namespace}.Accessory-Information.Model`, (err, state) => {
                 expect(err).to.be.null;
-                expect(state).to.be.undefined;
+                expect(state).to.be.null;
                 done();
             });
         });
