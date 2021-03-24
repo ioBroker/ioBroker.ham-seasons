@@ -29,7 +29,7 @@ This adapter is prove of concept for homebridge wrapper.
 
 ## Changelog
 
-### __WORK IN PROGRESS__
+### 1.1.1 (2021-03-24)
 * (Apollon77) js-controller 2.0 now needed as minimum
 * (Apollon77) homebridge version and dependencies updated
 
