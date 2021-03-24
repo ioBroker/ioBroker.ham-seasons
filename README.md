@@ -1,7 +1,6 @@
 ![Logo](admin/ham-seasons.png)
 # ioBroker Seasons adapter based on homebridge-seasons
-![Number of Installations](http://iobroker.live/badges/ham-seasons-installed.svg) ![Number of Installations](http://iobroker.live/badges/ham-seasons-stable.svg) 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ioBroker/ioBroker.ham-seasons.svg)](https://greenkeeper.io/)
+![Number of Installations](http://iobroker.live/badges/ham-seasons-installed.svg) ![Number of Installations](http://iobroker.live/badges/ham-seasons-stable.svg)
 
 =================
 
@@ -29,6 +28,10 @@ createState('season', () => {
 This adapter is prove of concept for homebridge wrapper.
 
 ## Changelog
+
+### __WORK IN PROGRESS__
+* (Apollon77) js-controller 2.0 now needed as minimum
+* (Apollon77) homebridge version and dependencies updated
 
 ### 1.1.0 (2020-08-08)
 * (Apollon77) BREAKING: Nodejs 10.17.0+ needed as minimum version

@@ -97,7 +97,12 @@
         ],
         "readme": "https://github.com/ioBroker/ioBroker.ham-seasons/blob/master/README.md",
         "loglevel": "info",
-        "type": "general"
+        "type": "general",
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
     },
     "native": {
         "ignoreInfoAccessoryServices": true,
