@@ -1,6 +1,12 @@
 ![Logo](admin/ham-seasons.png)
 # ioBroker Seasons adapter based on homebridge-seasons
-![Number of Installations](http://iobroker.live/badges/ham-seasons-installed.svg) ![Number of Installations](http://iobroker.live/badges/ham-seasons-stable.svg)
+![Number of Installations](http://iobroker.live/badges/ham-seasons-installed.svg)
+![Number of Installations](http://iobroker.live/badges/ham-seasons-stable.svg)
+[![NPM version](http://img.shields.io/npm/v/iobroker.ham-seasons.svg)](https://www.npmjs.com/package/iobroker.ham-seasons)
+
+![Test and Release](https://github.com/ioBroker/iobroker.ham-seasons/workflows/Test%20and%20Release/badge.svg)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.ham-seasons.svg)](https://www.npmjs.com/package/iobroker.ham-seasons)
+
 
 =================
 
