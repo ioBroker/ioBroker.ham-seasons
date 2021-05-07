@@ -35,7 +35,7 @@ This adapter is prove of concept for homebridge wrapper.
 
 ## Changelog
 
-### __WORK IN PROGRESS__
+### 1.1.2 (2021-05-08)
 * (Apollon77) Optimize for js-controller 3.3
 
 ### 1.1.1 (2021-03-24)

@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "ham-seasons",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "news": {
+            "1.1.2": {
+                "en": "Optimize for js-controller 3.3",
+                "de": "Optimieren für js-controller 3.3",
+                "ru": "Оптимизировать под js-controller 3.3",
+                "pt": "Otimize para js-controller 3.3",
+                "nl": "Optimaliseren voor js-controller 3.3",
+                "fr": "Optimiser pour js-controller 3.3",
+                "it": "Ottimizza per js-controller 3.3",
+                "es": "Optimizar para js-controller 3.3",
+                "pl": "Optymalizacja pod kątem kontrolera js 3.3",
+                "zh-cn": "针对js-controller 3.3进行优化"
+            },
             "1.1.1": {
                 "en": "js-controller 2.0 now needed as minimum\nhomebridge version and dependencies updated",
                 "de": "js-controller 2.0 wird jetzt mindestens benötigt\nHomebridge-Version und Abhängigkeiten aktualisiert",
