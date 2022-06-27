@@ -5,6 +5,7 @@
 [![NPM version](http://img.shields.io/npm/v/iobroker.ham-seasons.svg)](https://www.npmjs.com/package/iobroker.ham-seasons)
 
 ![Test and Release](https://github.com/ioBroker/iobroker.ham-seasons/workflows/Test%20and%20Release/badge.svg)
+[![Translation status](https://weblate.iobroker.net/widgets/adapters/-/ham-seasons/svg-badge.svg)](https://weblate.iobroker.net/engage/adapters/?utm_source=widget)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.ham-seasons.svg)](https://www.npmjs.com/package/iobroker.ham-seasons)
 
 
@@ -35,6 +36,9 @@ This adapter is prove of concept for homebridge wrapper.
 
 ## Changelog
 
+### __WORK IN PROGRESS__
+* (Apollon77) homebridge version and dependencies updated
+
 ### 1.1.2 (2021-05-08)
 * (Apollon77) Optimize for js-controller 3.3
 
@@ -61,7 +65,7 @@ This adapter is prove of concept for homebridge wrapper.
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2018-2021 bluefox <dogafox@gmail.com>
+Copyright (c) 2018-2022 bluefox <dogafox@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
