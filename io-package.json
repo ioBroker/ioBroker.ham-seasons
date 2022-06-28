@@ -1,159 +1,159 @@
 {
-    "common": {
-        "name": "ham-seasons",
-        "version": "1.1.2",
-        "news": {
-            "1.1.2": {
-                "en": "Optimize for js-controller 3.3",
-                "de": "Optimieren für js-controller 3.3",
-                "ru": "Оптимизировать под js-controller 3.3",
-                "pt": "Otimize para js-controller 3.3",
-                "nl": "Optimaliseren voor js-controller 3.3",
-                "fr": "Optimiser pour js-controller 3.3",
-                "it": "Ottimizza per js-controller 3.3",
-                "es": "Optimizar para js-controller 3.3",
-                "pl": "Optymalizacja pod kątem kontrolera js 3.3",
-                "zh-cn": "针对js-controller 3.3进行优化"
-            },
-            "1.1.1": {
-                "en": "js-controller 2.0 now needed as minimum\nhomebridge version and dependencies updated",
-                "de": "js-controller 2.0 wird jetzt mindestens benötigt\nHomebridge-Version und Abhängigkeiten aktualisiert",
-                "ru": "js-controller 2.0 теперь нужен как минимум\nобновлена версия homebridge и зависимости",
-                "pt": "js-controller 2.0 agora necessário como mínimo\nversão do homebridge e dependências atualizadas",
-                "nl": "js-controller 2.0 nu als minimum nodig\nhomebridge-versie en afhankelijkheden bijgewerkt",
-                "fr": "js-controller 2.0 est maintenant nécessaire au minimum\nmise à jour de la version et des dépendances de homebridge",
-                "it": "js-controller 2.0 ora necessario come minimo\nversione di homebridge e dipendenze aggiornate",
-                "es": "js-controller 2.0 ahora se necesita como mínimo\nVersión de Homebridge y dependencias actualizadas.",
-                "pl": "js-controller 2.0 jest teraz potrzebny jako minimum\nZaktualizowano wersję i zależności homebridge",
-                "zh-cn": "现在至少需要js-controller 2.0\nhomebridge版本和依赖项已更新"
-            },
-            "1.1.0": {
-                "en": "BREAKING: Nodejs 10.17.0+ needed as minimum version\nhomebridge version and dependencies updated",
-                "de": "BREAKING: Nodejs 10.17.0+ werden als Mindestversion benötigt\nHomebridge-Version und Abhängigkeiten aktualisiert",
-                "ru": "ПОВРЕЖДЕНИЕ: требуется Nodejs 10.17.0+ как минимальная версия\nобновлена версия homebridge и зависимости",
-                "pt": "QUEBRANDO: Nodejs 10.17.0+ necessária como versão mínima\nversão do homebridge e dependências atualizadas",
-                "nl": "BREAKING: Nodejs 10.17.0+ vereist als minimale versie\nhomebridge-versie en afhankelijkheden bijgewerkt",
-                "fr": "BREAKING: Nodejs 10.17.0+ est nécessaire comme version minimale\nversion et dépendances de homebridge mises à jour",
-                "it": "BREAKING: Nodejs 10.17.0+ necessario come versione minima\nversione di homebridge e dipendenze aggiornate",
-                "es": "ROMPIENDO: Nodejs 10.17.0+ necesario como versión mínima\nVersión de Homebridge y dependencias actualizadas",
-                "pl": "PRZEŁOM: Nodejs 10.17.0+ potrzebny jako wersja minimalna\nZaktualizowano wersję i zależności homebridge",
-                "zh-cn": "BREAKING：最低版本需要Nodejs 10.17.0+\nhomebridge版本和依赖项已更新"
-            },
-            "1.0.1": {
-                "en": "homebridge version updated",
-                "de": "Homebridge-Version aktualisiert",
-                "ru": "обновлена версия homebridge",
-                "pt": "versão homebridge atualizada",
-                "nl": "Homebridge-versie bijgewerkt",
-                "fr": "version de homebridge mise à jour",
-                "it": "versione di homebridge aggiornata",
-                "es": "versión homebridge actualizada",
-                "pl": "zaktualizowana wersja homebridge",
-                "zh-cn": "homebridge版本更新"
-            },
-            "1.0.0": {
-                "en": "Optimizations",
-                "de": "Optimierungen",
-                "ru": "Оптимизации",
-                "pt": "Otimizações",
-                "nl": "optimalisaties",
-                "fr": "Optimisations",
-                "it": "ottimizzazioni",
-                "es": "Optimizaciones",
-                "pl": "Optymalizacje",
-                "zh-cn": "优化"
-            },
-            "0.2.1": {
-                "en": "Optimizations",
-                "de": "Optimierungen",
-                "ru": "Оптимизации",
-                "pt": "Otimizações",
-                "nl": "optimalisaties",
-                "fr": "Optimisations",
-                "it": "ottimizzazioni",
-                "es": "Optimizaciones",
-                "pl": "Optymalizacje",
-                "zh-cn": "优化"
-            },
-            "0.1.0": {
-                "en": "initial adapter",
-                "de": "Initiale Version",
-                "ru": "Первоначальный адаптер",
-                "pt": "Versão inicial",
-                "fr": "Version initiale",
-                "nl": "Eerste release",
-                "it": "adattatore iniziale",
-                "es": "adaptador inicial",
-                "pl": "początkowy adapter",
-                "zh-cn": "初始适配器"
-            }
-        },
-        "title": "Homebridge accessories manager Seasons Plugin",
-        "titleLang": {
-            "en": "Homebridge accessories manager Seasons Plugin",
-            "de": "Homebridge accessories manager Seasons Plugin",
-            "ru": "Homebridge accessories manager Seasons Plugin",
-            "pt": "Homebridge accessories manager Seasons Plugin",
-            "nl": "Homebridge accessories manager Seasons Plugin",
-            "fr": "Homebridge accessories manager Seasons Plugin",
-            "it": "Homebridge accessories manager Seasons Plugin",
-            "es": "Homebridge accessories manager Seasons Plugin",
-            "pl": "Menedżer akcesoriów Homebridge Wtyczka Seasons",
-            "zh-cn": "Homebridge 配件经理 Seasons 插件"
-        },
-        "desc": {
-            "en": "ioBroker Homebridge Seasons Plugin Adapter",
-            "de": "ioBroker Homebridge Seasons Plugin Adapter",
-            "ru": "Адаптер адаптера Homebridge Seasons от ioBroker",
-            "pt": "Adaptador de plug-in de temporizadores Hombridge da ioBroker",
-            "nl": "ioBroker Homebridge Seasons Plugin-adapter",
-            "fr": "ioBroker Homebridge Saisons Plugin Adaptateur",
-            "it": "Adattatore plug-in Homebridge Seasons di ioBroker",
-            "es": "Adaptador de adaptador de estación ioBroker Homebridge Seasons",
-            "pl": "ioBroker Homebridge Seasons Plugin Adapter",
-            "zh-cn": "ioBroker Homebridge Seasons 插件适配器"
-        },
-        "authors": [
-            "bluefox <dogafox@gmail.com>"
-        ],
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "mode": "schedule",
-        "schedule": "0 0 * * *",
-        "icon": "ham-seasons.png",
-        "materialize": true,
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.ham-seasons/master/admin/ham-seasons.png",
-        "keywords": [
-            "homebridge",
-            "seasons"
-        ],
-        "readme": "https://github.com/ioBroker/ioBroker.ham-seasons/blob/master/README.md",
-        "loglevel": "info",
-        "type": "general",
-        "dependencies": [
-            {
-                "js-controller": ">=2.0.0"
-            }
-        ],
-        "tier": 2,
-        "connectionType": "local",
-        "dataSource": "push"
+  "common": {
+    "name": "ham-seasons",
+    "version": "1.2.0",
+    "news": {
+      "1.2.0": {
+        "en": "homebridge version and dependencies updated",
+        "de": "homebridge-version und abhängigkeiten aktualisiert",
+        "ru": "homebridge версия и зависимости обновлены",
+        "pt": "versão homebridge e dependências atualizadas",
+        "nl": "homebridge versie en afhankelijkheid",
+        "fr": "version de homebridge et dépendances mises à jour",
+        "it": "versione homebridge e dipendenze aggiornate",
+        "es": "versión y dependencias actualizadas",
+        "pl": "wersja domowa i zależność aktualizacji",
+        "zh-cn": "b. 更新的屋顶图和包件"
+      },
+      "1.1.2": {
+        "en": "Optimize for js-controller 3.3",
+        "de": "Optimieren für js-controller 3.3",
+        "ru": "Оптимизировать под js-controller 3.3",
+        "pt": "Otimize para js-controller 3.3",
+        "nl": "Optimaliseren voor js-controller 3.3",
+        "fr": "Optimiser pour js-controller 3.3",
+        "it": "Ottimizza per js-controller 3.3",
+        "es": "Optimizar para js-controller 3.3",
+        "pl": "Optymalizacja pod kątem kontrolera js 3.3",
+        "zh-cn": "针对js-controller 3.3进行优化"
+      },
+      "1.1.1": {
+        "en": "js-controller 2.0 now needed as minimum\nhomebridge version and dependencies updated",
+        "de": "js-controller 2.0 wird jetzt mindestens benötigt\nHomebridge-Version und Abhängigkeiten aktualisiert",
+        "ru": "js-controller 2.0 теперь нужен как минимум\nобновлена версия homebridge и зависимости",
+        "pt": "js-controller 2.0 agora necessário como mínimo\nversão do homebridge e dependências atualizadas",
+        "nl": "js-controller 2.0 nu als minimum nodig\nhomebridge-versie en afhankelijkheden bijgewerkt",
+        "fr": "js-controller 2.0 est maintenant nécessaire au minimum\nmise à jour de la version et des dépendances de homebridge",
+        "it": "js-controller 2.0 ora necessario come minimo\nversione di homebridge e dipendenze aggiornate",
+        "es": "js-controller 2.0 ahora se necesita como mínimo\nVersión de Homebridge y dependencias actualizadas.",
+        "pl": "js-controller 2.0 jest teraz potrzebny jako minimum\nZaktualizowano wersję i zależności homebridge",
+        "zh-cn": "现在至少需要js-controller 2.0\nhomebridge版本和依赖项已更新"
+      },
+      "1.1.0": {
+        "en": "BREAKING: Nodejs 10.17.0+ needed as minimum version\nhomebridge version and dependencies updated",
+        "de": "BREAKING: Nodejs 10.17.0+ werden als Mindestversion benötigt\nHomebridge-Version und Abhängigkeiten aktualisiert",
+        "ru": "ПОВРЕЖДЕНИЕ: требуется Nodejs 10.17.0+ как минимальная версия\nобновлена версия homebridge и зависимости",
+        "pt": "QUEBRANDO: Nodejs 10.17.0+ necessária como versão mínima\nversão do homebridge e dependências atualizadas",
+        "nl": "BREAKING: Nodejs 10.17.0+ vereist als minimale versie\nhomebridge-versie en afhankelijkheden bijgewerkt",
+        "fr": "BREAKING: Nodejs 10.17.0+ est nécessaire comme version minimale\nversion et dépendances de homebridge mises à jour",
+        "it": "BREAKING: Nodejs 10.17.0+ necessario come versione minima\nversione di homebridge e dipendenze aggiornate",
+        "es": "ROMPIENDO: Nodejs 10.17.0+ necesario como versión mínima\nVersión de Homebridge y dependencias actualizadas",
+        "pl": "PRZEŁOM: Nodejs 10.17.0+ potrzebny jako wersja minimalna\nZaktualizowano wersję i zależności homebridge",
+        "zh-cn": "BREAKING：最低版本需要Nodejs 10.17.0+\nhomebridge版本和依赖项已更新"
+      },
+      "1.0.1": {
+        "en": "homebridge version updated",
+        "de": "Homebridge-Version aktualisiert",
+        "ru": "обновлена версия homebridge",
+        "pt": "versão homebridge atualizada",
+        "nl": "Homebridge-versie bijgewerkt",
+        "fr": "version de homebridge mise à jour",
+        "it": "versione di homebridge aggiornata",
+        "es": "versión homebridge actualizada",
+        "pl": "zaktualizowana wersja homebridge",
+        "zh-cn": "homebridge版本更新"
+      },
+      "1.0.0": {
+        "en": "Optimizations",
+        "de": "Optimierungen",
+        "ru": "Оптимизации",
+        "pt": "Otimizações",
+        "nl": "optimalisaties",
+        "fr": "Optimisations",
+        "it": "ottimizzazioni",
+        "es": "Optimizaciones",
+        "pl": "Optymalizacje",
+        "zh-cn": "优化"
+      },
+      "0.2.1": {
+        "en": "Optimizations",
+        "de": "Optimierungen",
+        "ru": "Оптимизации",
+        "pt": "Otimizações",
+        "nl": "optimalisaties",
+        "fr": "Optimisations",
+        "it": "ottimizzazioni",
+        "es": "Optimizaciones",
+        "pl": "Optymalizacje",
+        "zh-cn": "优化"
+      }
     },
-    "native": {
-        "ignoreInfoAccessoryServices": true,
-        "characteristicPollingInterval": 0,
-        "wrapperConfig": {
-            "accessories": [],
-            "platforms": [
-                {
-                    "platform": "Seasons",
-                    "name": "Seasons",
-                    "calendar": "meteorologic",
-                    "hemisphere": "north",
-                    "display": "both"
-                }
-            ]
+    "title": "Homebridge accessories manager Seasons Plugin",
+    "titleLang": {
+      "en": "Homebridge accessories manager Seasons Plugin",
+      "de": "Homebridge accessories manager Seasons Plugin",
+      "ru": "Homebridge accessories manager Seasons Plugin",
+      "pt": "Homebridge accessories manager Seasons Plugin",
+      "nl": "Homebridge accessories manager Seasons Plugin",
+      "fr": "Homebridge accessories manager Seasons Plugin",
+      "it": "Homebridge accessories manager Seasons Plugin",
+      "es": "Homebridge accessories manager Seasons Plugin",
+      "pl": "Menedżer akcesoriów Homebridge Wtyczka Seasons",
+      "zh-cn": "Homebridge 配件经理 Seasons 插件"
+    },
+    "desc": {
+      "en": "ioBroker Homebridge Seasons Plugin Adapter",
+      "de": "ioBroker Homebridge Seasons Plugin Adapter",
+      "ru": "Адаптер адаптера Homebridge Seasons от ioBroker",
+      "pt": "Adaptador de plug-in de temporizadores Hombridge da ioBroker",
+      "nl": "ioBroker Homebridge Seasons Plugin-adapter",
+      "fr": "ioBroker Homebridge Saisons Plugin Adaptateur",
+      "it": "Adattatore plug-in Homebridge Seasons di ioBroker",
+      "es": "Adaptador de adaptador de estación ioBroker Homebridge Seasons",
+      "pl": "ioBroker Homebridge Seasons Plugin Adapter",
+      "zh-cn": "ioBroker Homebridge Seasons 插件适配器"
+    },
+    "authors": [
+      "bluefox <dogafox@gmail.com>"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "mode": "schedule",
+    "schedule": "0 0 * * *",
+    "icon": "ham-seasons.png",
+    "materialize": true,
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.ham-seasons/master/admin/ham-seasons.png",
+    "keywords": [
+      "homebridge",
+      "seasons"
+    ],
+    "readme": "https://github.com/ioBroker/ioBroker.ham-seasons/blob/master/README.md",
+    "loglevel": "info",
+    "type": "general",
+    "dependencies": [
+      {
+        "js-controller": ">=2.0.0"
+      }
+    ],
+    "tier": 2,
+    "connectionType": "local",
+    "dataSource": "push"
+  },
+  "native": {
+    "ignoreInfoAccessoryServices": true,
+    "characteristicPollingInterval": 0,
+    "wrapperConfig": {
+      "accessories": [],
+      "platforms": [
+        {
+          "platform": "Seasons",
+          "name": "Seasons",
+          "calendar": "meteorologic",
+          "hemisphere": "north",
+          "display": "both"
         }
+      ]
     }
+  }
 }
