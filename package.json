@@ -19,9 +19,9 @@
     }
   ],
   "dependencies": {
-    "iobroker.ham": "^5.1.0",
+    "iobroker.ham": "^5.2.1",
     "homebridge-seasons": "^1.0.1",
-    "@iobroker/adapter-core": "^2.6.0"
+    "@iobroker/adapter-core": "^2.6.2"
   },
   "description": "Homebridge accessories manager Seasons Plugin Adapter",
   "devDependencies": {
