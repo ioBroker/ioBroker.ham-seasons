@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "ham-seasons",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "news": {
+      "1.2.1": {
+        "en": "homebridge version and dependencies updated",
+        "de": "homebridge-version und abhängigkeiten aktualisiert",
+        "ru": "homebridge версия и зависимости обновлены",
+        "pt": "versão homebridge e dependências atualizadas",
+        "nl": "homebridge versie en afhankelijkheid",
+        "fr": "version de homebridge et dépendances mises à jour",
+        "it": "versione homebridge e dipendenze aggiornate",
+        "es": "versión y dependencias actualizadas",
+        "pl": "wersja domowa i zależność aktualizacji",
+        "zh-cn": "b. 更新的屋顶图和包件"
+      },
       "1.2.0": {
         "en": "homebridge version and dependencies updated",
         "de": "homebridge-version und abhängigkeiten aktualisiert",
@@ -64,18 +76,6 @@
         "zh-cn": "homebridge版本更新"
       },
       "1.0.0": {
-        "en": "Optimizations",
-        "de": "Optimierungen",
-        "ru": "Оптимизации",
-        "pt": "Otimizações",
-        "nl": "optimalisaties",
-        "fr": "Optimisations",
-        "it": "ottimizzazioni",
-        "es": "Optimizaciones",
-        "pl": "Optymalizacje",
-        "zh-cn": "优化"
-      },
-      "0.2.1": {
         "en": "Optimizations",
         "de": "Optimierungen",
         "ru": "Оптимизации",
