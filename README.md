@@ -35,8 +35,7 @@ createState('season', () => {
 This adapter is prove of concept for homebridge wrapper.
 
 ## Changelog
-
-### __WORK IN PROGRESS__
+### 1.2.2 (2022-09-15)
 * (Apollon77) update to latest ham version
 
 ### 1.2.1 (2022-09-12)
